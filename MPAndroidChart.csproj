@@ -1,0 +1,539 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9946103E-E7B9-47FA-B6BA-474A6528BFF4}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MPAndroidChart</RootNamespace>
+    <AssemblyName>MPAndroidChart</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Java7DocPaths>JavaDocs\mpandroidchartlibrary-2-1-1-javadoc</Java7DocPaths>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Java7DocPaths>JavaDocs\mpandroidchartlibrary-2-1-1-javadoc</Java7DocPaths>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>2</WarningLevel>
+    <Java7DocPaths>JavaDocs\mpandroidchartlibrary-2-1-1-javadoc</Java7DocPaths>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Additions\BarBuffer.cs" />
+    <Compile Include="Additions\CandleBodyBuffer.cs" />
+    <Compile Include="Additions\CandleShadowBuffer.cs" />
+    <Compile Include="Additions\CircleBuffer.cs" />
+    <Compile Include="Additions\EntryXIndexComparator.cs" />
+    <Compile Include="Additions\LineBuffer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Additions\ScatterBuffer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+    <None Include="JavaDocs\Javadoc\charting\.DS_Store" />
+    <None Include="JavaDocs\Javadoc\charting\animation\ChartAnimator.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%241.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2410.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2411.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2412.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2413.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2414.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2415.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2416.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2417.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2418.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2419.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%242.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2420.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2421.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2422.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2423.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2424.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2425.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2426.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2427.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%2428.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%243.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%244.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%245.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%246.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%247.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%248.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions%249.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingFunctions.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing%24EasingOption.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\Easing.class" />
+    <None Include="JavaDocs\Javadoc\charting\animation\EasingFunction.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\AbstractBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\BarBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\CandleBodyBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\CandleShadowBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\CircleBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\HorizontalBarBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\LineBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\buffer\ScatterBuffer.class" />
+    <None Include="JavaDocs\Javadoc\charting\BuildConfig.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\BarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\BarLineChartBase%241.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\BarLineChartBase%24DefaultFillFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\BarLineChartBase.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\BubbleChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\CandleStickChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\Chart%241.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\Chart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\CombinedChart%24DrawOrder.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\CombinedChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\HorizontalBarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\LineChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\PieChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\PieRadarChartBase%241.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\PieRadarChartBase.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\RadarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\ScatterChart%24ScatterShape.class" />
+    <None Include="JavaDocs\Javadoc\charting\charts\ScatterChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\AxisBase.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\ComponentBase.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\Legend%24LegendDirection.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\Legend%24LegendForm.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\Legend%24LegendPosition.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\Legend.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\LimitLine%24LimitLabelPosition.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\LimitLine.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\MarkerView.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\XAxis%24XAxisPosition.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\XAxis.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\YAxis%24AxisDependency.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\YAxis%24YAxisLabelPosition.class" />
+    <None Include="JavaDocs\Javadoc\charting\components\YAxis.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BarData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BarDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BarEntry.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BarLineScatterCandleData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BarLineScatterCandleDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BubbleData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BubbleDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\BubbleEntry.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\CandleData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\CandleDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\CandleEntry.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\ChartData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\CombinedData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\DataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\Entry.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\filter\Approximator%24ApproximatorType.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\filter\Approximator.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\LineData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\LineDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\LineRadarDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\LineScatterCandleRadarDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\PieData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\PieDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\RadarData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\RadarDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\ScatterData.class" />
+    <None Include="JavaDocs\Javadoc\charting\data\ScatterDataSet.class" />
+    <None Include="JavaDocs\Javadoc\charting\exception\DrawingDataSetNotCreatedException.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\BarDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\BarLineScatterCandleDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\BubbleDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\CandleDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\ChartInterface.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\LineDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\interfaces\ScatterDataProvider.class" />
+    <None Include="JavaDocs\Javadoc\charting\jobs\MoveViewJob.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\BarLineChartTouchListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\ChartTouchListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\OnChartGestureListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\OnChartValueSelectedListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\OnDrawLineChartTouchListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\OnDrawListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\PieRadarChartTouchListener%24AngularVelocitySample.class" />
+    <None Include="JavaDocs\Javadoc\charting\listener\PieRadarChartTouchListener.class" />
+    <None Include="JavaDocs\Javadoc\charting\matrix\Vector3.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\AxisRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\BarChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\BubbleChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\CandleStickChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\CombinedChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\DataRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\HorizontalBarChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\LegendRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\LineChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\LineScatterCandleRadarRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\PieChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\RadarChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\Renderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\ScatterChartRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\XAxisRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererBarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererHorizontalBarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererRadarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\YAxisRenderer.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\YAxisRendererHorizontalBarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\renderer\YAxisRendererRadarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\ColorFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\ColorTemplate.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\DefaultValueFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\EntryXIndexComparator.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\FileUtils.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\FillFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\FSize.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\Highlight.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\LargeValueFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\PercentFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\PointD.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\SelectionDetail.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\Transformer.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\TransformerHorizontalBarChart.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\Utils.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\ValueFormatter.class" />
+    <None Include="JavaDocs\Javadoc\charting\utils\ViewPortHandler.class" />
+    <None Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\package-list" />
+    <None Include="MPAndroidChart.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml">
+      <SubType>Designer</SubType>
+    </TransformFile>
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\mpchartlib.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <InputJar Include="JavaDocs\Javadoc\mpandroidchartlibrary-2-1-1.jar" />
+    <Content Include="JavaDocs\Javadoc\charting\animation\ChartAnimator.java" />
+    <Content Include="JavaDocs\Javadoc\charting\animation\Easing.java" />
+    <Content Include="JavaDocs\Javadoc\charting\animation\EasingFunction.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\AbstractBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\BarBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\CandleBodyBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\CandleShadowBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\CircleBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\HorizontalBarBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\LineBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\buffer\ScatterBuffer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\BuildConfig.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\BarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\BarLineChartBase.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\BubbleChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\CandleStickChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\Chart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\CombinedChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\HorizontalBarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\LineChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\PieChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\PieRadarChartBase.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\RadarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\charts\ScatterChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\AxisBase.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\ComponentBase.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\Legend.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\LimitLine.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\MarkerView.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\XAxis.java" />
+    <Content Include="JavaDocs\Javadoc\charting\components\YAxis.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BarData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BarDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BarEntry.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BarLineScatterCandleData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BarLineScatterCandleDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BubbleData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BubbleDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\BubbleEntry.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\CandleData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\CandleDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\CandleEntry.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\ChartData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\CombinedData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\DataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\Entry.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\filter\Approximator.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\LineData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\LineDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\LineRadarDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\LineScatterCandleRadarDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\PieData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\PieDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\RadarData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\RadarDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\ScatterData.java" />
+    <Content Include="JavaDocs\Javadoc\charting\data\ScatterDataSet.java" />
+    <Content Include="JavaDocs\Javadoc\charting\exception\DrawingDataSetNotCreatedException.java" />
+    <Content Include="JavaDocs\Javadoc\charting\file.lst" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\BarDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\BarLineScatterCandleDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\BubbleDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\CandleDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\ChartInterface.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\LineDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\interfaces\ScatterDataProvider.java" />
+    <Content Include="JavaDocs\Javadoc\charting\jobs\MoveViewJob.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\BarLineChartTouchListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\ChartTouchListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\OnChartGestureListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\OnChartValueSelectedListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\OnDrawLineChartTouchListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\OnDrawListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\listener\PieRadarChartTouchListener.java" />
+    <Content Include="JavaDocs\Javadoc\charting\matrix\Vector3.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\AxisRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\BarChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\BubbleChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\CandleStickChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\CombinedChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\DataRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\HorizontalBarChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\LegendRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\LineChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\LineScatterCandleRadarRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\PieChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\RadarChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\Renderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\ScatterChartRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\XAxisRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererBarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererHorizontalBarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\XAxisRendererRadarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\YAxisRenderer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\YAxisRendererHorizontalBarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\renderer\YAxisRendererRadarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\ColorFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\ColorTemplate.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\DefaultValueFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\EntryXIndexComparator.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\FileUtils.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\FillFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\FSize.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\Highlight.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\LargeValueFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\PercentFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\PointD.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\SelectionDetail.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\Transformer.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\TransformerHorizontalBarChart.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\Utils.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\ValueFormatter.java" />
+    <Content Include="JavaDocs\Javadoc\charting\utils\ViewPortHandler.java" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\allclasses-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\allclasses-noframe.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\ChartAnimator.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\Easing.EasingOption.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\Easing.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\EasingFunction.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\animation\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\AbstractBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\BarBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\CandleBodyBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\CandleShadowBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\CircleBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\HorizontalBarBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\LineBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\buffer\ScatterBuffer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\BuildConfig.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\BarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\BarLineChartBase.DefaultFillFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\BarLineChartBase.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\BubbleChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\CandleStickChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\Chart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\CombinedChart.DrawOrder.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\CombinedChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\HorizontalBarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\LineChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\PieChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\PieRadarChartBase.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\RadarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\ScatterChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\charts\ScatterChart.ScatterShape.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\AxisBase.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\ComponentBase.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\Legend.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\Legend.LegendDirection.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\Legend.LegendForm.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\Legend.LegendPosition.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\LimitLine.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\LimitLine.LimitLabelPosition.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\MarkerView.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\XAxis.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\XAxis.XAxisPosition.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\YAxis.AxisDependency.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\YAxis.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\components\YAxis.YAxisLabelPosition.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BarData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BarDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BarEntry.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BarLineScatterCandleData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BarLineScatterCandleDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BubbleData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BubbleDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\BubbleEntry.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\CandleData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\CandleDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\CandleEntry.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\ChartData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\CombinedData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\DataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\Entry.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\filter\Approximator.ApproximatorType.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\filter\Approximator.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\filter\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\filter\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\filter\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\LineData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\LineDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\LineRadarDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\LineScatterCandleRadarDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\PieData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\PieDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\RadarData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\RadarDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\ScatterData.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\data\ScatterDataSet.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\exception\DrawingDataSetNotCreatedException.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\exception\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\exception\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\exception\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\BarDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\BarLineScatterCandleDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\BubbleDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\CandleDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\ChartInterface.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\LineDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\interfaces\ScatterDataProvider.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\jobs\MoveViewJob.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\jobs\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\jobs\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\jobs\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\BarLineChartTouchListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\ChartTouchListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\OnChartGestureListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\OnChartValueSelectedListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\OnDrawLineChartTouchListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\OnDrawListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\listener\PieRadarChartTouchListener.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\matrix\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\matrix\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\matrix\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\matrix\Vector3.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\AxisRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\BarChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\BubbleChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\CandleStickChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\CombinedChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\DataRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\HorizontalBarChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\LegendRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\LineChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\LineScatterCandleRadarRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\PieChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\RadarChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\Renderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\ScatterChartRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\XAxisRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\XAxisRendererBarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\XAxisRendererHorizontalBarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\XAxisRendererRadarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\YAxisRenderer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\YAxisRendererHorizontalBarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\renderer\YAxisRendererRadarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\ColorFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\ColorTemplate.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\DefaultValueFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\EntryXIndexComparator.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\FileUtils.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\FillFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\FSize.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\Highlight.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\LargeValueFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\package-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\package-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\package-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\PercentFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\PointD.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\SelectionDetail.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\Transformer.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\TransformerHorizontalBarChart.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\Utils.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\ValueFormatter.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\com\github\mikephil\charting\utils\ViewPortHandler.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\constant-values.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\deprecated-list.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\help-doc.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\index-all.html" />
+    <JavaDocIndex Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\index.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\overview-frame.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\overview-summary.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\overview-tree.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\resources\background.gif" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\resources\tab.gif" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\resources\titlebar.gif" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\resources\titlebar_end.gif" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\serialized-form.html" />
+    <Content Include="JavaDocs\mpandroidchartlibrary-2-1-1-javadoc\stylesheet.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
