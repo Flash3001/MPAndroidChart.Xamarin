@@ -13,6 +13,7 @@ using Android.Widget;
 
 namespace MikePhil.Charting.Buffer
 {
+
     public partial class CircleBuffer
     {
         static IntPtr id_feed_Ljava_util_List_;
