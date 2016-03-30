@@ -11,7 +11,7 @@ using Android.App;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MPAndroidChart")]
-[assembly: AssemblyCopyright("Copyright ©  2015")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
@@ -26,5 +26,5 @@ using Android.App;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.2.3.1")]
-[assembly: AssemblyFileVersion("2.2.3.1")]
+[assembly: AssemblyVersion("2.2.3")]
+[assembly: AssemblyFileVersion("2.2.3")]
