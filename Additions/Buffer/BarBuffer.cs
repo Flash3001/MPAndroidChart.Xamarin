@@ -15,33 +15,33 @@ namespace MikePhil.Charting.Buffer
 {
     public partial class BarBuffer
     {
-        static IntPtr id_feed_Ljava_util_List_;
-        // Metadata.xml XPath method reference: path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='BarBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.BarEntry&gt;']]"
-        [Register("feed", "(Ljava/util/List;)V", "GetFeed_Ljava_util_List_Handler")]
-        public unsafe void Feed(global::System.Collections.Generic.IList<MikePhil.Charting.Data.BarEntry> p0)
-        {
-            if (id_feed_Ljava_util_List_ == IntPtr.Zero)
-                id_feed_Ljava_util_List_ = JNIEnv.GetMethodID(class_ref, "feed", "(Ljava/util/List;)V");
-            IntPtr native_p0 = global::Android.Runtime.JavaList<MikePhil.Charting.Data.BarEntry>.ToLocalJniHandle(p0);
-            try
-            {
-                JValue* __args = stackalloc JValue[1];
-                __args[0] = new JValue(native_p0);
+        //static IntPtr id_feed_Ljava_util_List_;
+        //// Metadata.xml XPath method reference: path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='BarBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.BarEntry&gt;']]"
+        //[Register("feed", "(Ljava/util/List;)V", "GetFeed_Ljava_util_List_Handler")]
+        //public unsafe void Feed(MikePhil.Charting.Interfaces.Datasets    p0)
+        //{
+        //    if (id_feed_Ljava_util_List_ == IntPtr.Zero)
+        //        id_feed_Ljava_util_List_ = JNIEnv.GetMethodID(class_ref, "feed", "(Ljava/util/List;)V");
+        //    IntPtr native_p0 = global::Android.Runtime.JavaList<MikePhil.Charting.Data.BarEntry>.ToLocalJniHandle(p0);
+        //    try
+        //    {
+        //        JValue* __args = stackalloc JValue[1];
+        //        __args[0] = new JValue(native_p0);
 
-                if (GetType() == ThresholdType)
-                    JNIEnv.CallVoidMethod(Handle, id_feed_Ljava_util_List_, __args);
-                else
-                    JNIEnv.CallNonvirtualVoidMethod(Handle, ThresholdClass, JNIEnv.GetMethodID(ThresholdClass, "feed", "(Ljava/util/List;)V"), __args);
-            }
-            finally
-            {
-                JNIEnv.DeleteLocalRef(native_p0);
-            }
-        }
+        //        if (GetType() == ThresholdType)
+        //            JNIEnv.CallVoidMethod(Handle, id_feed_Ljava_util_List_, __args);
+        //        else
+        //            JNIEnv.CallNonvirtualVoidMethod(Handle, ThresholdClass, JNIEnv.GetMethodID(ThresholdClass, "feed", "(Ljava/util/List;)V"), __args);
+        //    }
+        //    finally
+        //    {
+        //        JNIEnv.DeleteLocalRef(native_p0);
+        //    }
+        //}
 
         public override void Feed(Java.Lang.Object p0)
         {
-            Feed(p0 as IList<MikePhil.Charting.Data.BarEntry>);
+            //Feed(p0 as IList<MikePhil.Charting.Data.BarEntry>);
         }
     }
 }
