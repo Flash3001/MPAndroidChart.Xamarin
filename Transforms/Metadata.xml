@@ -18,6 +18,7 @@
   <attr path="/api/package[@name='com.github.mikephil.charting.charts']" name="managedName">MikePhil.Charting.Charts</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.jobs']" name="managedName">MikePhil.Charting.Jobs</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.renderer']" name="managedName">MikePhil.Charting.Renderer</attr>
+  <attr path="/api/package[@name='com.github.mikephil.charting.renderer.scatter']" name="managedName">MikePhil.Charting.Renderer.Scatter</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.interfaces']" name="managedName">MikePhil.Charting.Interfaces</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']" name="managedName">MikePhil.Charting.Interfaces.Datasets</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.interfaces.dataprovider']" name="managedName">MikePhil.Charting.Interfaces.Dataprovider</attr>
@@ -48,6 +49,10 @@
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXIndex' and count(parameter)=1 and parameter[1][@type='int']]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXIndex' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='com.github.mikephil.charting.data.DataSet.Rounding']]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='removeEntry' and count(parameter)=1 and parameter[1][@type='T']]" />
+  <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXPos' and count(parameter)=1 and parameter[1][@type='float']]" />
+  <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXPos' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='com.github.mikephil.charting.data.DataSet.Rounding']]"  />
+
+
 
   <attr path="/api/package[@name='com.github.mikephil.charting.charts']/class[@name='Chart']/method[@name='calculateOffsets' and count(parameter)=0]" name="visibility">public</attr>
 </metadata>
