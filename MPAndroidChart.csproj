@@ -50,7 +50,6 @@
   <ItemGroup>
     <Compile Include="Additions\Buffer\BarBuffer.cs" />
     <Compile Include="Additions\Util\EntryXComparator.cs" />
-    <Compile Include="Additions\Util\EntryXIndexComparator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Additions\Buffer\ScatterBuffer.cs" />
   </ItemGroup>
