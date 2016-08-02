@@ -4,6 +4,8 @@ A Xamarin.Android binding for MPAndroidChart by Philipp Jahoda
 For more information go to https://github.com/PhilJay/MPAndroidChart
 
 
+
+<h2>License</h2>
 Copyright 2016 Lucas Teixeira & Philipp Jahoda
 
 Licensed under the Apache License, Version 2.0 (the "License");
