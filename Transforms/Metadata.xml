@@ -31,15 +31,7 @@
   <attr path="/api/package[@name='com.github.mikephil.charting.listener']/interface[@name='OnDrawListener']" name="managedName">IOnDrawListenerSupport</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.listener']/interface[@name='OnChartValueSelectedListener']" name="managedName">IOnChartValueSelectedListenerSupport</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.listener']/interface[@name='OnChartGestureListener']" name="managedName">IOnChartGestureListenerSupport</attr>
-
   
-  <!--<remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='BarBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.BarEntry&gt;']]" />
-  <remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='CandleBodyBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.CandleEntry&gt;']]" />
-  <remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='CandleShadowBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.CandleEntry&gt;']]" />
-  <remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='CircleBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.Entry&gt;']]" />
-  <remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='LineBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.Entry&gt;']]" />
-  <remove-node path="/api/package[@name='com.github.mikephil.charting.buffer']/class[@name='ScatterBuffer']/method[@name='feed' and count(parameter)=1 and parameter[1][@type='java.util.List&lt;com.github.mikephil.charting.data.Entry&gt;']]" />-->
-
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.dataprovider']/interface[@name='ChartInterface']/method[@name='getData' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.dataprovider']/interface[@name='BarLineScatterCandleBubbleDataProvider']/method[@name='getData' and count(parameter)=0]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryIndex' and count(parameter)=1 and parameter[1][@type='T']]" />
@@ -51,7 +43,8 @@
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='removeEntry' and count(parameter)=1 and parameter[1][@type='T']]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXPos' and count(parameter)=1 and parameter[1][@type='float']]" />
   <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXPos' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='com.github.mikephil.charting.data.DataSet.Rounding']]"  />
-
+  <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXValue' and count(parameter)=2 and parameter[1][@type='float'] and parameter[2][@type='float']]" />
+  <remove-node path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='IDataSet']/method[@name='getEntryForXValue' and count(parameter)=3 and parameter[1][@type='float'] and parameter[2][@type='float'] and parameter[3][@type='com.github.mikephil.charting.data.DataSet.Rounding']]" />
 
 
   <attr path="/api/package[@name='com.github.mikephil.charting.charts']/class[@name='Chart']/method[@name='calculateOffsets' and count(parameter)=0]" name="visibility">public</attr>

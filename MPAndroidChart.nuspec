@@ -2,16 +2,15 @@
 <package >
   <metadata>
     <id>MPAndroidChart</id>
-    <version>3.0-beta1</version>
+    <version>3.0</version>
     <title>MPAndroidChart</title>
     <authors>Flash3001</authors>
     <owners>Philipp Jahoda</owners>
-    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <licenseUrl>https://raw.githubusercontent.com/Flash3001/MPAndroidChart.Xamarin/master/LICENSE.MD</licenseUrl>
+    <projectUrl>https://github.com/Flash3001/MPAndroidChart.Xamarin</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Xamarin port for MPAndroidChart by Philipp Jahoda</description>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/PhilJay/MPAndroidChart/releases/tag/v3.0.0</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>chart mpandroidchart LineChart Combined-Chart BarChart Horizontal-BarChartPieChart ScatterChart CandleStickChart BubbleChart RadarChart</tags>
   </metadata>
