@@ -3,8 +3,8 @@ A Xamarin.Android binding for MPAndroidChart by Philipp Jahoda
 
 For more information go to https://github.com/PhilJay/MPAndroidChart
 
-<h2>Version 3.0</h2>
-The major release for version 3.0.0 is now available, you can download it here: https://www.nuget.org/packages/MPAndroidChart/3.0.0
+<h2>Version 3.0.1</h2>
+The major release for version 3.0.1 is now available, you can download it here: https://www.nuget.org/packages/MPAndroidChart/3.0.1
 
 As it is a breaking change, please read the release notes: https://github.com/PhilJay/MPAndroidChart/releases/tag/v3.0.0
 
