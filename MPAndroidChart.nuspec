@@ -13,5 +13,9 @@
     <releaseNotes>https://github.com/PhilJay/MPAndroidChart/releases/tag/v3.0.0</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>chart mpandroidchart LineChart Combined-Chart BarChart Horizontal-BarChartPieChart ScatterChart CandleStickChart BubbleChart RadarChart</tags>
+        <dependencies>
+        <group targetFramework="MonoAndroid0.0">
+        </group>            
+    </dependencies>
   </metadata>
 </package>
