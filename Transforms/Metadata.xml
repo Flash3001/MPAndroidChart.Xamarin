@@ -48,4 +48,8 @@
 
 
   <attr path="/api/package[@name='com.github.mikephil.charting.charts']/class[@name='Chart']/method[@name='calculateOffsets' and count(parameter)=0]" name="visibility">public</attr>
+
+  <!-- Fix Chart::setData and Chart::getData -->
+  <attr path="/api/package[@name='com.github.mikephil.charting.charts']/class[@name='Chart']/method[@name='getData' and count(parameter)=0]" name="return">com.github.mikephil.charting.data.ChartData</attr>
+  <attr path="/api/package[@name='com.github.mikephil.charting.charts']/class[@name='Chart']/method[@name='setData' and count(parameter)=1]/parameter[1]" name="type">com.github.mikephil.charting.data.ChartData</attr>
 </metadata>

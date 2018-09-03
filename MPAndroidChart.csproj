@@ -20,6 +20,8 @@
     <SccProvider>SAK</SccProvider>
     <Java7DocPaths>JavaDocs</Java7DocPaths>
     <JavaDocPaths>JavaDocs</JavaDocPaths>
+    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
+    <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -85,7 +87,6 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\buffer\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\buffer\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\buffer\package-tree.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\buffer\ScatterBuffer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\charts\BarChart.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\charts\BarLineChartBase.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\charts\BubbleChart.html" />
@@ -105,6 +106,8 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\charts\ScatterChart.ScatterShape.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\AxisBase.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\ComponentBase.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\components\Description.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\components\IMarker.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.LegendDirection.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.LegendForm.html" />
@@ -112,8 +115,10 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.LegendOrientation.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.LegendPosition.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\Legend.LegendVerticalAlignment.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\components\LegendEntry.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\LimitLine.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\LimitLine.LimitLabelPosition.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\components\MarkerImage.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\MarkerView.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\components\package-summary.html" />
@@ -166,30 +171,26 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\exception\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\exception\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\exception\package-tree.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\AxisValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\ColorFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\DefaultAxisValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\DefaultFillFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\DefaultValueFormatter.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FillFormatter.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FormattedStringCache.Generic.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FormattedStringCache.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FormattedStringCache.PrimDouble.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FormattedStringCache.PrimFloat.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\FormattedStringCache.PrimIntFloat.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\IAxisValueFormatter.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\IFillFormatter.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\IndexAxisValueFormatter.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\IValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\LargeValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\package-tree.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\PercentFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\StackedValueFormatter.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\ValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\BarHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\ChartHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\CombinedHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\Highlight.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\highlight\Highlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\HorizontalBarHighlighter.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\highlight\IHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\package-tree.html" />
@@ -270,10 +271,10 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\ChevronUpShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\CircleShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\CrossShapeRenderer.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\IShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\package-tree.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\ShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\SquareShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\TriangleShapeRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\scatter\XShapeRenderer.html" />
@@ -295,7 +296,6 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\package-frame.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\package-tree.html" />
-    <Content Include="JavaDocs\com\github\mikephil\charting\utils\ShapeRendererHandler.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\Transformer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\TransformerHorizontalBarChart.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\utils\Utils.html" />
@@ -308,10 +308,7 @@
     <Content Include="JavaDocs\overview-frame.html" />
     <Content Include="JavaDocs\overview-summary.html" />
     <Content Include="JavaDocs\overview-tree.html" />
-    <Content Include="JavaDocs\resources\background.gif" />
-    <Content Include="JavaDocs\resources\tab.gif" />
-    <Content Include="JavaDocs\resources\titlebar.gif" />
-    <Content Include="JavaDocs\resources\titlebar_end.gif" />
+    <Content Include="JavaDocs\script.js" />
     <Content Include="JavaDocs\serialized-form.html" />
     <Content Include="JavaDocs\stylesheet.css" />
   </ItemGroup>
