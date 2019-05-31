@@ -26,6 +26,7 @@
   <attr path="/api/package[@name='com.github.mikephil.charting.listener']" name="managedName">MikePhil.Charting.Listener</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.formatter']" name="managedName">MikePhil.Charting.Formatter</attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.data.filter']" name="managedName">MikePhil.Charting.Data.Filter</attr>
+  <attr path="/api/package[@name='com.github.mikephil.charting.model']" name="managedName">MikePhil.Charting.Model</attr>
 
   <attr path="/api/package[@name='com.github.mikephil.charting.interfaces.datasets']/interface[@name='ILineDataSet']/method[@name='getMode' and count(parameter)=0]" name="propertyName"></attr>
   <attr path="/api/package[@name='com.github.mikephil.charting.listener']/interface[@name='OnDrawListener']" name="managedName">IOnDrawListenerSupport</attr>
