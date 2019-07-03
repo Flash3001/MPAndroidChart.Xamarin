@@ -70,11 +70,11 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="JavaDocs\allclasses-frame.html" />
     <Content Include="JavaDocs\allclasses-noframe.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\animation\ChartAnimator.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\animation\Easing.EasingFunction.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\animation\Easing.EasingOption.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\animation\Easing.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\animation\EasingFunction.html" />
@@ -185,6 +185,7 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\package-tree.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\PercentFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\formatter\StackedValueFormatter.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\formatter\ValueFormatter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\BarHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\ChartHighlighter.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\highlight\CombinedHighlighter.html" />
@@ -247,6 +248,10 @@
     <Content Include="JavaDocs\com\github\mikephil\charting\matrix\package-summary.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\matrix\package-tree.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\matrix\Vector3.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\model\GradientColor.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\model\package-frame.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\model\package-summary.html" />
+    <Content Include="JavaDocs\com\github\mikephil\charting\model\package-tree.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\AxisRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\BarChartRenderer.html" />
     <Content Include="JavaDocs\com\github\mikephil\charting\renderer\BarLineScatterCandleBubbleRenderer.html" />

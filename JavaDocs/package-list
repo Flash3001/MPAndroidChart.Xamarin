@@ -12,6 +12,7 @@ com.github.mikephil.charting.interfaces.datasets
 com.github.mikephil.charting.jobs
 com.github.mikephil.charting.listener
 com.github.mikephil.charting.matrix
+com.github.mikephil.charting.model
 com.github.mikephil.charting.renderer
 com.github.mikephil.charting.renderer.scatter
 com.github.mikephil.charting.utils
